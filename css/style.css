@@ -1,0 +1,74 @@
+/*nav*/
+.navbar{
+  width: 100%;
+  background-color: #041528;
+  border: none;
+}
+.navbar-brand{
+  background-color: #364453;
+  width: 160px;
+  height: 32px;
+  margin: 16px 32px;
+  display: block;
+}
+.nav1{
+  color: #ffffff;
+  font-size: 20px;
+  margin: 0px;
+  width: auto;
+  height: 64px;
+  padding: 20px 19px;
+}
+.nav1:hover{
+  background-color: #4090F7;
+}
+
+/*nav*/
+
+/*body*/
+body{
+  background-color: #f0f2f5;
+  margin: auto;
+}
+.contener{
+  padding:16px 32px;
+}
+  .c{
+  	height: 300px;
+  	border: 8px solid #F0F2F5;
+  	padding-left: 0px;
+  	padding-right: 0px;
+  	padding-bottom: 0px;
+  }
+
+  .card {
+    height: auto;
+    perspective:2000px;
+    transition: transform 1s ease-out;
+    transform-style: preserve-3d;
+    position: relative;
+    cursor:pointer;
+  }
+
+  .card div {
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    backface-visibility: hidden;
+    position: absolute;
+  }
+  .card .f {
+    background-color: #FFF;
+  }
+  .card .b {
+    background-position: left top;
+    transform: rotateY( 180deg );
+  }
+  .card:hover{
+    transform: rotateY(180deg);
+  }
+
+  .b img{
+    width: 100%;
+    height: 100%;
+  }
